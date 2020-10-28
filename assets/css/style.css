@@ -58,7 +58,7 @@ body {
 .header .header-content {
 	position: absolute;
 	z-index: 3;
-	top: 35%;
+	top: 45vh;
 	display: inline-block;
 	text-align: center;
 	transform: translate(-50%,-50%);
