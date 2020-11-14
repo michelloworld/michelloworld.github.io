@@ -15,39 +15,39 @@
 </head>
 
 <body>
-  <header class="header">
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Hungry Code</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link page-scroll" href="#home">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link page-scroll" href="#">Services</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link page-scroll" href="#">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="home">
     <div id="particles-js"></div>
 
-    <nav class="navbar navbar-expand-md fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/">Hungry Code</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">
-            <i class="fas fa-bars"></i>
-          </span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="header-content">
+    <div class="home-content">
       <div class="col-12">
         <img src="assets/images/me.png" alt="me" class="me">
         <div class="msg">
@@ -57,7 +57,40 @@
         </div>
       </div>
     </div>
-  </header>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h1 class="section-title">Portfolio</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <img src="assets/images/portfolio/thailandgolftrip.png" alt="" class="">
+            <div class="name">Thailand Golf Trip</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img src="assets/images/portfolio/watchmemo.png" alt="" class="">
+            <div class="name">Watchmemo</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img src="assets/images/portfolio/fishstaff.png" alt="" class="">
+            <div class="name">FishStaff</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img src="assets/images/portfolio/beamd.png" alt="" class="">
+            <div class="name">Beamd</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
